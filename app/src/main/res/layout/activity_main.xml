@@ -18,24 +18,26 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
         <EditText
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:layout_marginRight="10dp"
+            android:id="@+id/txt_display"
             />
 
-            <Button
-                android:layout_width="80dp"
-                android:layout_height="50dp"
-                android:layout_marginTop="20dp"
-                android:text="del" />
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn_del"
+            android:text="del" />
 
-        </LinearLayout>
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -47,17 +49,20 @@
             android:layout_width="63dp"
             android:layout_height="60dp"
             android:layout_marginRight="20dp"
+            android:id="@+id/btn_one"
             android:text="1" />
 
         <Button
             android:layout_width="63dp"
             android:layout_height="60dp"
             android:layout_marginRight="20dp"
+            android:id="@+id/btn_two"
             android:text="2" />
 
         <Button
             android:layout_width="63dp"
             android:layout_height="60dp"
+            android:id="@+id/btn_three"
             android:text="3" />
 
     </LinearLayout>
@@ -71,18 +76,21 @@
             android:layout_width="63dp"
             android:layout_height="60dp"
             android:layout_marginRight="20dp"
+            android:id="@+id/btn_four"
             android:text="4" />
 
         <Button
             android:layout_width="63dp"
             android:layout_height="60dp"
             android:layout_marginRight="20dp"
+            android:id="@+id/btn_five"
             android:text="5" />
 
         <Button
             android:layout_width="63dp"
             android:layout_height="60dp"
-            android:text="6" />
+            android:text="6"
+            android:id="@+id/btn_six"/>
 
     </LinearLayout>
 
@@ -96,17 +104,20 @@
             android:layout_width="63dp"
             android:layout_height="60dp"
             android:layout_marginRight="20dp"
+            android:id="@+id/btn_seven"
             android:text="7" />
 
         <Button
             android:layout_width="63dp"
             android:layout_height="60dp"
             android:layout_marginRight="20dp"
+            android:id="@+id/btn_eight"
             android:text="8" />
 
         <Button
             android:layout_width="63dp"
             android:layout_height="60dp"
+            android:id="@+id/btn_nine"
             android:text="9" />
 
     </LinearLayout>
@@ -118,15 +129,47 @@
         android:gravity="fill_horizontal">
 
         <Button
+            android:layout_width="63dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/btn_star"
+            android:text="*" />
+
+        <Button
+            android:layout_width="63dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/btn_zero"
+            android:text="0" />
+
+        <Button
+            android:layout_width="63dp"
+            android:layout_height="60dp"
+            android:id="@+id/btn_ash"
+            android:text="#" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:gravity="fill_horizontal">
+
+        <Button
             android:layout_width="80dp"
             android:layout_height="60dp"
             android:layout_marginRight="20dp"
+            android:id="@+id/btn_call"
             android:text="Call" />
 
         <Button
             android:layout_width="80dp"
             android:layout_height="60dp"
             android:layout_marginRight="20dp"
+            android:id="@+id/btn_save"
             android:text="Save" />
 
 
