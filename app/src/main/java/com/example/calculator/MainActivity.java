@@ -101,7 +101,7 @@ public class MainActivity extends Activity implements OnClickListener {
             txtNumber.setText(num);
         } else if (v.equals(btnCall)) {
             String num = txtNumber.getText().toString();
-            Intent callIntent = new Intent(Intent.ACTION_CALL);
+            Intent callIntent = new Intent(Intent.ACTION_DIAL);
             callIntent.setData(Uri.parse("tel:"+num));
             startActivity(callIntent);
         } else if (v.equals(btnSave)) {
