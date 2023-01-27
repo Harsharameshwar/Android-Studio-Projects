@@ -1,0 +1,14 @@
+[
+    {
+        "name":"Bangalore",
+        "latitude":"19.52.631.26",
+        "longitude":"45.365.66.656",
+        "temperature":"19C"
+    },
+    {
+        "name":"Calcutta",
+        "latitude":"123.6.365.366",
+        "longitude":"55.553.25.555",
+        "temperature":"30C"
+    }
+]
